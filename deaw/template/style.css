@@ -1,17 +1,19 @@
-
+// subi el padding al 35
 .wrap { 
-    padding: 25px; 
-    text-align: center; 
-    box-shadow: 0 4px 25px -4px #9da5ab; 
+    padding: 35px; 
+    text-align: rigth; 
+    box-shadow: 0 2px 25px -4px #9da5ab; 
 }
+
+// le quite el align-center
 article { 
     padding: 25px 0; 
-    line-height: 150%; 
-    text-align: left; 
+    line-height: 150%;  
 }
 
+// Modifique que la decoracion sea underline
 nav .item {
-    text-decoration: none;
+    text-decoration: underline;
 }
 nav .active {
     border-bottom: 1px solid;   
